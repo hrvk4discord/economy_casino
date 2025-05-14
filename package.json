@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "dayjs": "^1.11.13",
+    "discord.js": "^14.19.3",
+    "mariadb": "^3.4.2"
+  }
+}
