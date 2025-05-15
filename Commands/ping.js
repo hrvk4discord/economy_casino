@@ -12,7 +12,8 @@ module.exports = {
             .setDescription(`# Pong!\n### Latenz: ${Date.now() - interaction.createdTimestamp}ms`)
             .setColor(0x00AEFF)
             .setTimestamp();
-
+        
+            //import safeReply
         await safeReply(interaction, { embeds: [embed] });
     }
 }
